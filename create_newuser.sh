@@ -34,4 +34,4 @@ sudo cp /home/ofagbule/user.pub /home/$username/.ssh/authorized_keys
 sudo chown -R $username: /home/$username/.ssh/
 
 # Use this command to access the new user account using ssh
-ssh -i privatekey_file username@server_ip
+#ssh -i privatekey_file username@server_ip
